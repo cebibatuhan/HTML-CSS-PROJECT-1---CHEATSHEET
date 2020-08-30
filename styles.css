@@ -1,0 +1,94 @@
+h1 {
+    text-align: center;
+}
+
+table.green, table.green td, table.green th{
+    background-color: seagreen;
+    border: 2px solid black;
+}
+
+thead tr.coltitle th {
+    background-color: rgb(42, 100, 207) !important;
+}
+
+thead tr.bigtitle th {
+    background-color: rgb(163, 168, 94) !important;
+}
+
+table.blue, table.blue td, table.blue th{
+    background-color: cyan;
+    border: 2px solid black;
+}
+
+table.red, table.red td, table.red th{
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+
+table.purple, table.purple td, table.purple th{
+    background-color: magenta;
+    border: 2px solid black;
+}
+
+table.pink, table.pink td, table.pink th{
+    background-color: pink;
+    border: 2px solid black;
+}
+
+table td {
+    font-weight: bold;
+}
+
+table.green td.leftmost {
+    font-weight: bold;
+    color:gold
+}
+
+table.blue td.leftmost {
+    font-weight: bold;
+    color:rebeccapurple;
+}
+
+table.red td.leftmost {
+    font-weight: bold;
+    color:maroon;
+}
+
+table.purple td.leftmost {
+    font-weight: bold;
+    color: #FFF;
+}
+
+table.pink td.leftmost {
+    font-weight: bold;
+    color:rebeccapurple;
+}
+
+table th {
+    font-size: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.green span {
+    color: orange;
+}
+
+table.pink span {
+    color: rebeccapurple;
+}
+
+table.blue span {
+    color: blueviolet;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace
+}

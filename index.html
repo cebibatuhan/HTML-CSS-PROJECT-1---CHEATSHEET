@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheatsheet</title>
+        <link href="./styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>HTML&CSS Cheatsheet</h1>
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#green">Tags</a></li>
+            <li><a href="#blue">Basic Attributes</a></li>
+            <li><a href="#red">Table</a></li>
+            <li><a href="#purple">Table Attributes</a></li>
+            <li><a href="#pink">CSS Declarations</a></li>
+        </ul>
+        <table class="green" id="green">
+            <thead>
+                <tr class="bigtitle">
+                    <th scope="col" colspan="3">HTML Element Tags</th>
+                </tr>
+                <tr class="coltitle">
+                    <th scope="col">Tag</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="leftmost">&lthtml&gt</td>
+                    <td>HTML</td>
+                    <td>Contains the HTML code.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lthead&gt</td>
+                    <td>head</td>
+                    <td>Contains the <span>metadata</span> of the page.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltbody&gt</td>
+                    <td>body</td>
+                    <td>Contains the main displayed elements of the page.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lttitle&gt</td>
+                    <td>title</td>
+                    <td>Contains the title of the site which is displayed in the browser tab. Usually in <span>&lthead&gt</span>.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltp&gt</td>
+                    <td>paragraph</td>
+                    <td>Used to print basic texts.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lth&gt</td>
+                    <td>heading</td>
+                    <td>Used to print titles, there are 6 different values (from h1 to h6). h1 is the biggest.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltdiv&gt</td>
+                    <td>division</td>
+                    <td>Used to divide the code in different section.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltspan&gt</td>
+                    <td>span</td>
+                    <td>Used to seperate enclosed <span>inline</span> text from the whole.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltem&gt</td>
+                    <td>emphasize</td>
+                    <td>Used to render enclosed string <em>italic</em>.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltstrong&gt</td>
+                    <td>strong</td>
+                    <td>Used to render enclosed string <strong>bold</strong>.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltbr&gt</td>
+                    <td>line break</td>
+                    <td>Used to skip to ne next line</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltul&gt</td>
+                    <td>unordered list</td>
+                    <td>Used to create a list with bullet points.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltol&gt</td>
+                    <td>ordered list</td>
+                    <td>Used to create a list with numerical order.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltli&gt</td>
+                    <td>list element</td>
+                    <td>Used to write the list elements.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltimg/&gt</td>
+                    <td>image</td>
+                    <td>Used to print an image. It is a <span>self-closing</span> tag and ends with a forward slash (/).</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltvideo&gt</td>
+                    <td>video</td>
+                    <td>Used to add a video. Like an image tag it requires a <span>src</span> attribute.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lta&gt</td>
+                    <td>anchor</td>
+                    <td>Used to add an <span>hyperlink</span>. You can also wrap other elements with this tag to render them as links.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lttable&gt</td>
+                    <td>table</td>
+                    <td>See below.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltstyle&gt</td>
+                    <td>style</td>
+                    <td>Allows to write code in CSS language between the tags.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltlink&gt</td>
+                    <td>link</td>
+                    <td>Links a CSS file to an HTML file. Includes <span>href</span>, <span>type</span> and <span>rel</span> attributes. Usually in <span>&lthead&gt</span>.</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+        <table class="blue" id="blue">
+            <thead>
+                <tr class="bigtitle">
+                    <th scope="col" colspan="2">Basic HTML Attributes</th>
+                </tr>
+                <tr class="coltitle">
+                    <th scope="col">Attribute</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="leftmost">id</td>
+                    <td>Specifies an Element.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">src</td>
+                    <td>Source of the media.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">alt</td>
+                    <td>Alternative text of the media.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">width</td>
+                    <td>Alters the dimension of the media.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">height</td>
+                    <td>Alters the dimension of the media.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">controls</td>
+                    <td>Adds basic controls to a video. The include pause, play, skip and the volume controls.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">href</td>
+                    <td>Hyperlink reference of an hyperlink.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">target</td>
+                    <td>Specifies how a link should open. For it to open in a new tab the value must be <span>"_blank"</span></td>
+                </tr>
+                <tr>
+                    <td class="leftmost">style</td>
+                    <td>Enables custom CSS styling to the element.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">type</td>
+                    <td>Describes the type of document you are linking to. For CSS: <span>"text/css"</span></td>
+                </tr>
+                <tr>
+                    <td class="leftmost">rel</td>
+                    <td>Describes the relationship between the linked files. For HTML-CSS: <span>"stylesheet"</span></td>
+                </tr>
+                <tr>
+                    <td class="leftmost">class</td>
+                    <td>Assigns one or more CSS class to tan element. To assign multiple classes leave a space between them.</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+        <table class="red" id="red">
+            <thead>
+                <tr class="bigtitle">
+                    <th scope="col" colspan="3">HTML Table Tags</th>
+                </tr>
+                <tr class="coltitle">
+                    <th scope="col">Tag</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="leftmost">&lttable&gt</td>
+                    <td>table</td>
+                    <td>Creates a table element.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lttr&gt</td>
+                    <td>table row</td>
+                    <td>Creates a table row.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lttd&gt</td>
+                    <td>table data</td>
+                    <td>Creates a table cell.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltth&gt</td>
+                    <td>table heading</td>
+                    <td>Creates a table title cell.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lttbody&gt</td>
+                    <td>table body</td>
+                    <td>Contains the main table data</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&ltthead&gt</td>
+                    <td>table head</td>
+                    <td>Contains table title and column headings.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">&lttfoot&gt</td>
+                    <td>table foot</td>
+                    <td>Contains the table's final rows, usually sum values.</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+        <table class="purple" id="purple">
+            <thead>
+                <tr class="bigtitle">
+                    <th scope="col" colspan="2">Table HTML Attributes</th>
+                </tr>
+                <tr class="coltitle">
+                    <th scope="col">Attribute</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="leftmost">scope</td>
+                    <td>Specifies the scope (col or row) of a table heading.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">colspan</td>
+                    <td>Specifies how many columns the element spans.</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">rowspan</td>
+                    <td>Specifies how many rows the element spans.</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+        <table class="pink" id="pink">
+            <thead>
+                <tr class="bigtitle">
+                    <th scope="col" colspan="3">CSS Declarations</th>
+                </tr>
+                <tr class="coltitle">
+                    <th scope="col">Declaration</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Units</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="leftmost">border</td>
+                    <td>Styles the border of the element.</td>
+                    <td>size(px) solidity color</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">font-family</td>
+                    <td>Styles the typeface of the text.</td>
+                    <td>fontname</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">font-size</td>
+                    <td>Styles the size of text.</td>
+                    <td>size(px)</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">font-weight</td>
+                    <td>Styles the thickness of text.</td>
+                    <td>normal, bold or bolder</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">text-align</td>
+                    <td>Locates the position of text.</td>
+                    <td>left, right or center</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">color</td>
+                    <td>Styles the foreground color of an element.</td>
+                    <td>color</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">background-color</td>
+                    <td>Styles the background color of an element.</td>
+                    <td>color</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">opacity</td>
+                    <td>Styles the opacity of an element.</td>
+                    <td>from 0 to 1</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">background-image</td>
+                    <td>Adds an image to an elements background.</td>
+                    <td>url("#")</td>
+                </tr>
+                <tr>
+                    <td class="leftmost">!important</td>
+                    <td>Can be attached to any property to increase its <span>specifity</span>.</td>
+                    <td>url("#")</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
